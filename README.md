@@ -11,4 +11,4 @@ Train Model:
 !python main.py --LR_path custom_dataset/train_LR --GT_path custom_dataset/train_HR
 
 Test Model:
-!python main.py --mode test_only --LR_path test_data/syn --generator_path ./model/srgan_custom.pt
+!python main.py --mode test_only --LR_path test_data/syn --generator_path ./model/pretrained_model.pt
