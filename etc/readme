@@ -1,4 +1,4 @@
-# synthetic dataset USAGE
+#synthetic dataset USAGE
 
 
 .csv File description
@@ -10,9 +10,13 @@
 Mapping JSON
 ---------------------
 1. Check Original_name
+
 2. find New_name with Original_name in M/D.csv
+
 3. New_name is 내부키
 (ex) New_name : 1011_405_lower_99_datasetv2_decayedSDIv1_7.png 
+
 3. find 제출용키 with New_name 
 (ex) 내부키: 1011_405_lower_99_datasetv2_decayedSDIv1_7 제출용키: lower_2725
+
 4. 제출용키 is Json file name. (find the json file in label_json folder)
